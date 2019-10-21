@@ -1,0 +1,26 @@
+package pruebas;
+import java.util.Scanner;
+/**
+ *
+ * @author diego
+ */
+public class ejercicio1 {
+
+    public static void main(String[] args) {
+        Scanner teclado=new Scanner(System.in);
+        int a;
+        System.out.println("Introduce un numero entero grande, rollo de 2 o 3 cifras");
+        a = teclado.nextInt();
+        int b;
+        System.out.println("Introduce otro entero mas pequeño rollo 1 cifra o 2 como mucho");
+        b = teclado.nextInt();
+  
+      
+        if (a%b==0) {
+            System.out.println(a+" es multiplo de "+b);
+  }
+        else {
+            System.out.println(a+" no es multiplo de "+b);
+        }
+    }
+}
