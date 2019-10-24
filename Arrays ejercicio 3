@@ -2,7 +2,7 @@
 3. Hacer un programa que cree un array cuyo tamaño se pedirá por teclado y cuyo contenido serán números
  aleatorios entre 1 y 300. Posteriormente se creara otro array que guardara aquellos números del primer array
  que acaben en un dígito que se indicara por teclado (se debe controlar que se introduce un numero correcto).
- Finalmente, mostrar por pantalla los dos arrays.
+ Finalmente, mostrar por pantalla los dos arrays.45445454545
  */
 package Masejerccios;
 import java.util.Scanner;
